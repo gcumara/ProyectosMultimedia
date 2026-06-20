@@ -1,0 +1,23 @@
+[
+    {
+        "id": "6a1b68f735b17",
+        "username": "admin",
+        "password": "$2y$10$0obx5O24hwLm2IJhNMZgYuwTEqZwY17srm6b7uTvfkciJgEpxU1D.",
+        "role": "admin",
+        "nombre": "Administrador Principal"
+    },
+    {
+        "id": "6a1b69172638b",
+        "username": "pepe",
+        "password": "$2y$10$ZFXr504UnaoW7VWODCHIV.xvCXC2HJksuanwrCW1jYJMuNsynz53K",
+        "role": "estudiante",
+        "nombre": "pepe"
+    },
+    {
+        "id": "6a1b693c2cac6",
+        "username": "carla",
+        "password": "$2y$10$PnzjSqmSsCjJ9rf\/SvAQpOZuBESzbcXyl\/ojf5Hicq9KcKPq.rTeS",
+        "role": "kardex",
+        "nombre": "carla"
+    }
+]

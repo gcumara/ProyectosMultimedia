@@ -1,0 +1,14 @@
+[
+    {
+        "id_materia": "6a1b8f3321794",
+        "codigo": "MAT-123",
+        "nombre": "Algebra",
+        "prerequisito": "Ninguno"
+    },
+    {
+        "id_materia": "6a1b8f52a02d3",
+        "codigo": "SIS-122",
+        "nombre": "Programacion",
+        "prerequisito": "Ninguno"
+    }
+]

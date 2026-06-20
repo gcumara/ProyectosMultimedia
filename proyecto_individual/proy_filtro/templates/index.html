@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de Suavizado 3x3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtro de Suavizado (Promedio 3x3)</h1>
+        <p>Sube una imagen para reducir el ruido y suavizar las transiciones de color.</p>
+        
+        <form method="POST" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="file" accept=".png, .jpg, .jpeg" required>
+            <button type="submit">Aplicar Filtro</button>
+        </form>
+
+        {% if original_img and processed_img %}
+        <hr>
+        <div class="results">
+            <div class="image-box">
+                <h3>Imagen Original</h3>
+                <img src="{{ url_for('static', filename='uploads/' + original_img) }}" alt="Original">
+            </div>
+            <div class="image-box">
+                <h3>Imagen Suavizada</h3>
+                <img src="{{ url_for('static', filename='uploads/' + processed_img) }}" alt="Suavizada">
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

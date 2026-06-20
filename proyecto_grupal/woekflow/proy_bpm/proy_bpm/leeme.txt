@@ -1,0 +1,5 @@
+usuarios/passwords por defecto para hacer pruebas
+
+administrador:  admin/admin
+estudiante:     pepe/1234
+kardek:         carla/1234
